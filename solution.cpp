@@ -31,7 +31,7 @@ int main() {
     
     long long result = 0;
     
-    // For each pair of points (i, j) where i is to the left of j
+    // Optimized O(n^2) approach with early termination
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
             // Check if points[i] can be bottom-left and points[j] can be top-right
